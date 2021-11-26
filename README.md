@@ -8,3 +8,10 @@ Quantum Mechanics Properties leading to QC:
   * Quantum tunneling
 
 How these properties are used to make QC (or become issues in QC)
+
+
+How QC is implemented
+
+
+QC: Strengths, Weaknesses, Opportunities and Threats
+
