@@ -21,3 +21,17 @@
 
 ## QC: Strengths, Weaknesses, Opportunities and Threats
 
+
+## QC algorithm
+
+### Search
+
+#### Glover Algorithm
+
+
+### Optimization
+
+### Machine Learning
+
+
+## QC fault-tolerance and error correction
