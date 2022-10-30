@@ -1,5 +1,7 @@
 # QC
 
+See what I planed for [C in Q wonderland](https://github.com/tatpongkatanyukul/AdventureBook/blob/main/CinQWonder/readme.md)
+
 ## Quantum Mechanics Properties leading to QC:
   * Superposition
   * Collapse of states
