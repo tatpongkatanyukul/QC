@@ -16,7 +16,7 @@ See what I planed for [C in Q wonderland](https://github.com/tatpongkatanyukul/A
 |Basic object | phase space $(M, \omega)$ where $M$ is manifold, $\omega$ is a symplectic strucure. | Hilbert space $V$
 |Observables | real-valued functions on M | Hermitian operators on $V$.
 |States| points on $M$ | density matrices on $V$.
-|Evolution| Hamiltonian $\frac{\partial O}{\partial t} = \{H, O \}$ | $i \frac{\partial \hat{O}}{\partial t} = \{\hat{H}, \hat{O} \}$
+|Evolution| Hamiltonian $\frac{\partial O}{\partial t} = H O$ | $i \frac{\partial \hat{O}}{\partial t} = \hat{H}  \hat{O}$
 
 
 
