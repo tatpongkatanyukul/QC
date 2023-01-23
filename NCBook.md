@@ -89,7 +89,7 @@ To be Hermitian, LHS = RHS, i.e.,
 
 $$A = \sum_i \lambda_i \ket{i} \bra{i} = \sum_i \lambda_i^\ast \ket{i} \bra{i} = A^\dagger$$,
 which implies
-$$\lambda_i = \lambda_i^\ast$ for all $i$'s.
+$$\lambda_i = \lambda_i^\ast$$ for all $i$'s.
 
 Therefore, $\lambda_i$ must be real, so that it is equal to its own conjugate. Q.E.D.
 
