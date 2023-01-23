@@ -24,26 +24,18 @@ Self-adjoint is Hermitian, i.e., if $A = \ket{v} \bra{v}$ then $A = A^\dagger$.
 * It is so: consider $\ket{v} = [v_1, v_2, \ldots, v_k]^T$, so $\bra{v} = [v_1^\ast, v_2^\ast, \ldots, v_k^\ast]$.
   * Therefore, 
   $\ket{v} \bra{v}$ =
-  
-  `| 1 2 3 | | 4 5 6 | | 7 8 9 |`
-  
 ```math  
 \begin{equation}
 \begin{pmatrix}
-  1       & x^1_0   & x^2_0   & \cdots  & x^{degree}_0  \\
-  1       & x^1_1   & x^2_1   & \cdots  & x^{degree}_1  \\
-  \vdots  & \vdots  & \vdots  & \ddots  & \vdots \\
-  1       & x^1_n   & x^2_n   & \cdots  & x^{degree}_n  \\
-\end{pmatrix}
-\end{equation}
-```
-
-  ```
   v_1 v_1^\ast & v_1 v_2^\ast & \cdots & v_1 v_k^\ast \\
   v_2 v_1^\ast & v_2 v_2^\ast & \cdots & v_2 v_k^\ast \\
   \ldots       & \ldots       & \ddots & \ldots \\
   v_k v_1^\ast & v_k v_2^\ast & \cdots & v_k v_k^\ast \\
-  ```
+\end{pmatrix}
+\end{equation}
+```
+
+
 
 ## The postulates of quantum mechanics
 * (p 80) **Postulate 1**: Associated to any isolated physical system is a complex vector space with inner product (that is, a Hilbert space) know as the _state space_ of the system. The system is completely described by its _state vector_, which is a unit vector in the system's state space.
