@@ -43,10 +43,14 @@ which is equal to $(A^T)^\ast$. That is, if $A = \ket{v} \bra{v}$ then $A = A^\d
 Given $P = \sum_i \ket{i} \bra{i}$ (from eq. 2.35) when $\ket{i}$'s are orthonormal bases, thus
 $$P^2 = P \cdot P = (\sum_i \ket{i} \bra{i}) \cdot (\sum_j \ket{j} \bra{j})$$.
 ```math  
-P^2 = (\sum_i \sum_j \ket{i} \bra{i} \ket{j} \bra{j} \\
- =
+\begin{align}
+P^2 &= \sum_i \sum_j \ket{i} \braket{i}{j} \bra{j} \\
+ &= \sum_i \sum_{j \neq i} \ket{i} \braket{i}{j} \bra{j} + \sum_i \ket{i} \braket{i}{i} \bra{i} \\
+ &= \sum_i \sum_{j \neq i} \ket{i} 0 \bra{j} + \sum_i \ket{i} 1 \bra{i} \\
+ &= \sum_i \ket{i} \bra{i} = P.\\
+\end{align}
 ```
-
+Q.E.D.
 
 
 
