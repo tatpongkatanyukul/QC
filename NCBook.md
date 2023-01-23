@@ -45,7 +45,7 @@ $$P^2 = P \cdot P = (\sum_i \ket{i} \bra{i}) \cdot (\sum_j \ket{j} \bra{j})$$.
 ```math  
 \begin{align}
 P^2 &= \sum_i \sum_j \ket{i} \braket{i}{j} \bra{j} \\
- &= \sum_i \sum_{j \neq i} \ket{i} \braket{i}{j} \bra{j} + \sum_i \ket{i} \braket{i}{i} \bra{i} \\
+ &= \sum_i \sum_{j \neq i} \ket{i} \bra{i}\ket{j} \bra{j} + \sum_i \ket{i} \bra{i}\ket{i} \bra{i} \\
  &= \sum_i \sum_{j \neq i} \ket{i} 0 \bra{j} + \sum_i \ket{i} 1 \bra{i} \\
  &= \sum_i \ket{i} \bra{i} = P.\\
 \end{align}
@@ -104,8 +104,8 @@ Given $U \equiv \sum_i \ket{w_i} \bra{v_i}$,
 \begin{align}
 U^\dagger U &= (\sum_i \ket{w_i} \bra{v_i})^\dagger (\sum_j \ket{w_j} \bra{v_j}) \\
 &= (\sum_i \ket{v_i} \bra{w_i}) \cdot (\sum_j \ket{w_j} \bra{v_j}) \\
-&= \sum_i \sum_j \ket{v_i} \braket{w_i}{w_j} \bra{v_j} \\
-&= \sum_i \sum_{j \neq i} \ket{v_i} \braket{w_i}{w_j} \bra{v_j} + \sum_i \ket{v_i} \braket{w_i}{w_i} \bra{v_i}\\
+&= \sum_i \sum_j \ket{v_i} \bra{w_i}\ket{w_j} \bra{v_j} \\
+&= \sum_i \sum_{j \neq i} \ket{v_i} \bra{w_i}\ket{w_j} \bra{v_j} + \sum_i \ket{v_i} \bra{w_i}\ket{w_i} \bra{v_i}\\
 \end{align}
 ```
 
