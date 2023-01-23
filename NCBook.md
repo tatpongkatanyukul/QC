@@ -129,9 +129,11 @@ U^\dagger U &= (\sum_i \lambda_i \ket{i} \bra{i})^\dagger (\sum_j \lambda_j \ket
 &= \sum_i \sum_j \lambda_i^\ast  \lambda_j \ket{i} \bra{i} \ket{j} \bra{j} \\
 &= \sum_i \sum_{j \neq i} \lambda_i^\ast  \lambda_j \ket{i} \bra{i} \ket{j} \bra{j} + \sum_i \lambda_i^\ast  \lambda_i \ket{i} \bra{i} \ket{i} \bra{i}\\
 &= \sum_i \sum_{j \neq i} \lambda_i^\ast  \lambda_j \ket{i} 0 \bra{j} + \sum_i \lambda_i^\ast  \lambda_i \ket{i} 1 \bra{i} \;\;\mbox{(orthonormal)}\\
+&= \sum_i \lambda_i^\ast  \lambda_i \ket{i} \bra{i}
 \end{align}
 ```
 
+Recall that given $\lambda = a + i b$, $ $\lambda_i^\ast  \lambda_i = a^2 + b^2$, i.e., modulus $|\lambda|$. 
 
 
 
