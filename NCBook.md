@@ -4,7 +4,7 @@ See [write math in git](https://docs.github.com/en/get-started/writing-on-github
 * In short, use ```$``` for inline math, ```$$``` for block 
   * or
 ```math
-\sqrt{3}
+i \bar{h} \frac{\partial |\psi(t)>}{\partial t} = \hat{H} |\psi(t)>
 ```
   
 # Chapter 2
