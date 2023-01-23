@@ -150,8 +150,8 @@ I =
 \end{pmatrix}
 ```
 That is: 
-* $I = I^\dagger$ $\Rightarray$ Hermitian 
-* $I^\dagger I = I$ $\Rightarray$ Unitary 
+* $I = I^\dagger$ $\Rightarrow$ Hermitian 
+* $I^\dagger I = I$ $\Rightarrow$ Unitary 
 
 ```math
 X = 
@@ -161,7 +161,7 @@ X =
 \end{pmatrix}
 ```
 That is: 
-* $X = X^\dagger$ $\Rightarray$ Hermitian 
+* $X = X^\dagger$ $\Rightarrow$ Hermitian 
 * $X^\dagger X =$ 
 ```math
 \begin{pmatrix}
@@ -180,7 +180,7 @@ That is:
 \end{pmatrix}
 = I
 ```
-$\Rightarray$ Unitary 
+$\Rightarrow$ Unitary 
 
 
 
