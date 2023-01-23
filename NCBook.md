@@ -111,7 +111,7 @@ U^\dagger U &= (\sum_i \ket{w_i} \bra{v_i})^\dagger (\sum_j \ket{w_j} \bra{v_j})
 \end{align}
 ```
 
-Since $\ket{w_i}$'s form an orthonormal basis set, $\sum_i \ket{w_i} \bra{w_i} = I$ (from Eq. 2.22). Q.E.D.
+Since $\ket{v_i}$'s form an orthonormal basis set, $\sum_i \ket{v_i} \bra{v_i} = I$ (from Eq. 2.22). Q.E.D.
 
 
 
