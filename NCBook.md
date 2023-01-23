@@ -24,7 +24,8 @@ Self-adjoint is Hermitian, i.e., if $A = \ket{v} \bra{v}$ then $A = A^\dagger$.
 * It is so: consider $\ket{v} = [v_1, v_2, \ldots, v_k]^T$, so $\bra{v} = [v_1^\ast, v_2^\ast, \ldots, v_k^\ast]$.
   * Therefore, 
   $\ket{v} \bra{v}$ =
-  | 1 2 3 | | 4 5 6 | | 7 8 9 |
+  
+  `| 1 2 3 | | 4 5 6 | | 7 8 9 |`
   
   
   ```
