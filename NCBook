@@ -7,6 +7,7 @@ Nielsen and Chuang's Quantum Computation and Quantum Information
 Latex
 $x_t$
 
+- $\pi \approx 3.14159$
 
 Self-adjoint is Hermitian, i.e., if $A = |v><v|$ then $A = A^\dagger$.
 
