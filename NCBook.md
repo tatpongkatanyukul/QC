@@ -106,10 +106,15 @@ U^\dagger U &= (\sum_i \ket{w_i} \bra{v_i})^\dagger (\sum_j \ket{w_j} \bra{v_j})
 &= (\sum_i \ket{v_i} \bra{w_i}) \cdot (\sum_j \ket{w_j} \bra{v_j}) \\
 &= \sum_i \sum_j \ket{v_i} \bra{w_i}\ket{w_j} \bra{v_j} \\
 &= \sum_i \sum_{j \neq i} \ket{v_i} \bra{w_i}\ket{w_j} \bra{v_j} + \sum_i \ket{v_i} \bra{w_i}\ket{w_i} \bra{v_i}\\
-&= \sum_i \sum_{j \neq i} \ket{v_i} 0 \bra{v_j} + \sum_i \ket{v_i} 1 \bra{v_i} \;\;\\mbox{(orthonormal)}\\
-&= \sum_i \ket{v_i} \bra{v_i} \;\;\\mbox{(orthonormal)}\\
+&= \sum_i \sum_{j \neq i} \ket{v_i} 0 \bra{v_j} + \sum_i \ket{v_i} 1 \bra{v_i} \;\;\mbox{(orthonormal)}\\
+&= \sum_i \ket{v_i} \bra{v_i}\\
 \end{align}
 ```
+
+Since $\ket{w_i}$'s form an orthonormal basis set, $\sum_i \ket{w_i} \bra{w_i} = I$ (from Eq. 2.22). Q.E.D.
+
+
+
 
 ## The postulates of quantum mechanics
 * (p 80) **Postulate 1**: Associated to any isolated physical system is a complex vector space with inner product (that is, a Hilbert space) know as the _state space_ of the system. The system is completely described by its _state vector_, which is a unit vector in the system's state space.
