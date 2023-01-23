@@ -1,0 +1,7 @@
+Nielsen and Chuang's Quantum Computation and Quantum Information
+
+# Chapter 2
+
+## 2.1.6 Adjoints and Hermitian operators
+
+Self-adjoint is Hermitian, i.e., if $A = |v><v|$ then $A = A^\dagger$.
