@@ -113,6 +113,11 @@ U^\dagger U &= (\sum_i \ket{w_i} \bra{v_i})^\dagger (\sum_j \ket{w_j} \bra{v_j})
 
 Since $\ket{v_i}$'s form an orthonormal basis set, $\sum_i \ket{v_i} \bra{v_i} = I$ (from Eq. 2.22). Q.E.D.
 
+### Exercise 2.18
+> Show that all eigenvalues of a unitary matrix have modulus 1, that is, can be written in the form $e^{i \theta}$ from some real $\theta$.
+
+
+
 
 
 
