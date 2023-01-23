@@ -149,6 +149,57 @@ I =
 0 & 1
 \end{pmatrix}
 ```
+That is: 
+* $I = I^\dagger$ $\Rightarray$ Hermitian 
+* $I^\dagger I = I$ $\Rightarray$ Unitary 
+
+```math
+X = 
+\begin{pmatrix}
+0 & 1 \\
+1 & 0
+\end{pmatrix}
+```
+That is: 
+* $X = X^\dagger$ $\Rightarray$ Hermitian 
+* $X^\dagger X =$ 
+```math
+\begin{pmatrix}
+0 & 1 \\
+1 & 0
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+0 & 1 \\
+1 & 0
+\end{pmatrix}
+=
+\begin{pmatrix}
+1 & 0\\
+0 & 1
+\end{pmatrix}
+= I
+```
+$\Rightarray$ Unitary 
+
+
+
+```math
+Y = 
+\begin{pmatrix}
+0 & -i \\
+i & 0
+\end{pmatrix}
+```
+
+```math
+Z = 
+\begin{pmatrix}
+1 & 0 \\
+0 & -1
+\end{pmatrix}
+```
+
 
 
 
