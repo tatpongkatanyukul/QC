@@ -94,7 +94,9 @@ $$\lambda_i = \lambda_i^\ast$$ for all $i$'s.
 Therefore, $\lambda_i$ must be real, so that it is equal to its own conjugate. Q.E.D.
 
 ## Paragraph 1, page 71
-> ... if $\ket{v_i}$ and $\ket{w_i}$ are any two orthonormal bases, then it is easily checked that the operator $U$ defined by $U \equiv$
+> ... if $\ket{v_i}$ and $\ket{w_i}$ are any two orthonormal bases, then it is easily checked that the operator $U$ defined by $U \equiv \sum_i \ket{w_i} \bra{v_i}$ is a unitary operator.
+
+
 
 ## The postulates of quantum mechanics
 * (p 80) **Postulate 1**: Associated to any isolated physical system is a complex vector space with inner product (that is, a Hilbert space) know as the _state space_ of the system. The system is completely described by its _state vector_, which is a unit vector in the system's state space.
