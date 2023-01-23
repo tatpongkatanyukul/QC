@@ -34,7 +34,19 @@ Self-adjoint is Hermitian, i.e., if $A = \ket{v} \bra{v}$ then $A = A^\dagger$.
 \end{pmatrix}
 \end{equation}
 ```
-which is equal to $(A^T)^\ast$.
+which is equal to $(A^T)^\ast$. That is, if $A = \ket{v} \bra{v}$ then $A = A^\dagger$. Q.E.D.
+
+
+### Exercise 2.16
+> Show that any projector $P$ satisfies the equation $P^2 = P$.
+
+Given $P = \sum_i \ket{i} \bra{i}$ (from eq. 2.35) when $\ket{i}$'s are orthonormal bases, thus
+$$P^2 = P \cdot P = (\sum_i \ket{i} \bra{i}) \cdot (\sum_j \ket{j} \bra{j})$$.
+```math  
+P^2 = (\sum_i \sum_j \ket{i} \bra{i} \ket{j} \bra{j} \\
+ =
+```
+
 
 
 
