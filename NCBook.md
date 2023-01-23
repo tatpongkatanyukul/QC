@@ -116,7 +116,17 @@ Since $\ket{v_i}$'s form an orthonormal basis set, $\sum_i \ket{v_i} \bra{v_i} =
 ### Exercise 2.18
 > Show that all eigenvalues of a unitary matrix have modulus 1, that is, can be written in the form $e^{i \theta}$ from some real $\theta$.
 
+Related properties
+* unitary property $U^\dagger U = I$.
+* Any matrix $A = \sum_i \lambda_i \ket{i} \bra{i}$ where $\ket{i}$'s form an orthonormal set of eigenvectors for $A$ with corresponding eigenvalues $\lambda_i$'s.
 
+Consider $U^\dagger U$.
+```math
+\begin{align}
+U^\dagger U &= (\sum_i \lambda_i \ket{i} \bra{i})^\dagger (\sum_j \lambda_i \ket{j} \bra{j}) \\
+&= \sum_i \lambda_i^\ast (\ket{i} \bra{i})^\dagger (\sum_j \lambda_i \ket{j} \bra{j}) \\
+\end{align}
+```
 
 
 
