@@ -21,6 +21,8 @@ i \bar{h} \frac{\partial |\psi(t)>}{\partial t} = \hat{H} |\psi(t)>
 
 Self-adjoint is Hermitian, i.e., if $A = \ket{v} \bra{v}$ then $A = A^\dagger$.
 
+* It is so: consider $\ket{v} = [v_1, v_2, \ldots, v_k]^T$
+
 
 ## The postulates of quantum mechanics
 * (p 80) **Postulate 1**: Associated to any isolated physical system is a complex vector space with inner product (that is, a Hilbert space) know as the _state space_ of the system. The system is completely described by its _state vector_, which is a unit vector in the system's state space.
