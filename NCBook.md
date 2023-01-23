@@ -59,7 +59,14 @@ Recall all related properties:
 * $A$ is a normal matrix if $A A^\dagger = A^\dagger A$.
 * $A$ is Hermitian if $A = A^\dagger$.
 * Adjoint $A^\dagger = (A^\ast)^T$.
-* Any matrix $A = \sum_i \lambda_i \ket{i} \bra{i}$ where $\ket{i}$'s form an orthonormal set of eigenvectors for $A$ with corresponding eigenvalues $\lambda_i$'s.
+* Eigenvalues
+  * Eigenvalues of $A$ are the solutions $\lambda_i$'s of $det | A - \lambda I | = 0$.
+  * Any matrix $A = \sum_i \lambda_i \ket{i} \bra{i}$ where $\ket{i}$'s form an orthonormal set of eigenvectors for $A$ with corresponding eigenvalues $\lambda_i$'s.
+
+To clarify, if $A$ is normal, $A$ can be either Hermitian or not.
+* If $A$ is Hermitian (Hermitian is always normal: $A = A^\dagger \rightarrow A A^\dagger = A^\dagger A$.
+
+
 
 
 ## The postulates of quantum mechanics
