@@ -80,7 +80,8 @@ RHS:
 ```math
 \begin{align}
 A^\dagger &= (\sum_i \lambda_i \ket{i} \bra{i})^\dagger \\
-&= (\sum_i \lambda_i \ket{i} \bra{i})^\dagger
+&= \sum_i \lambda_i^\ast (\ket{i} \bra{i})^\dagger \mbox{(from eq. 2.33)} \\
+&= \sum_i \lambda_i^\ast \ket{i} \bra{i} \mbox{(from ex. 2.13)} \\
 \end{align}
 ```
 
