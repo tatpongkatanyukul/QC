@@ -2,7 +2,7 @@ Nielsen and Chuang's Quantum Computation and Quantum Information
 
 See [write math in git](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 * In short, use ```$``` for inline math, ```$$``` for block 
-  * or use back-tick math, i.e.,  ````math```
+  * or use back-tick math, i.e.,  ```\`math```
   * E.g.,
 ```
 \```math
