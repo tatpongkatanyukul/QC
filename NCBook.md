@@ -19,6 +19,12 @@ i \bar{h} \frac{\partial |\psi(t)>}{\partial t} = \hat{H} |\psi(t)>
 
 ## 2.1.6 Adjoints and Hermitian operators
 
+* $<$
+* $<v$
+* $<v|$
+* $\bra{v}$
+
+
 Self-adjoint is Hermitian, i.e., if $A = |v>$ . $<v|$
 
 
