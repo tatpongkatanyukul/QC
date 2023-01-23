@@ -182,8 +182,7 @@ That is:
 ```
 $\Rightarrow$ Unitary 
 
-
-
+Similarly,
 ```math
 Y = 
 \begin{pmatrix}
@@ -191,7 +190,7 @@ Y =
 i & 0
 \end{pmatrix}
 ```
-
+and 
 ```math
 Z = 
 \begin{pmatrix}
@@ -199,7 +198,7 @@ Z =
 0 & -1
 \end{pmatrix}
 ```
-
+are Hermitian and unitary.
 
 
 
