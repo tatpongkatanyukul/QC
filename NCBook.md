@@ -106,6 +106,7 @@ U^\dagger U &= (\sum_i \ket{w_i} \bra{v_i})^\dagger (\sum_j \ket{w_j} \bra{v_j})
 &= (\sum_i \ket{v_i} \bra{w_i}) \cdot (\sum_j \ket{w_j} \bra{v_j}) \\
 &= \sum_i \sum_j \ket{v_i} \bra{w_i}\ket{w_j} \bra{v_j} \\
 &= \sum_i \sum_{j \neq i} \ket{v_i} \bra{w_i}\ket{w_j} \bra{v_j} + \sum_i \ket{v_i} \bra{w_i}\ket{w_i} \bra{v_i}\\
+&= \sum_i \sum_{j \neq i} \ket{v_i} \bra{w_i}\ket{w_j} \bra{v_j} + \sum_i \ket{v_i} \bra{w_i}\ket{w_i} \bra{v_i} (orthonormal)\\
 \end{align}
 ```
 
