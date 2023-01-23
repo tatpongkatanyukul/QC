@@ -1,8 +1,12 @@
 Nielsen and Chuang's Quantum Computation and Quantum Information
 
-When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-
+See [write math in git](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
+* In short, use ```$``` for inline math, ```$$``` for block 
+  * or
+```math
+\sqrt{3}
+```
+  
 # Chapter 2
 
 ## 2.1.6 Adjoints and Hermitian operators
