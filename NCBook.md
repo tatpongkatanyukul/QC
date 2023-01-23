@@ -19,12 +19,7 @@ i \bar{h} \frac{\partial |\psi(t)>}{\partial t} = \hat{H} |\psi(t)>
 
 ## 2.1.6 Adjoints and Hermitian operators
 
-Latex
-$x_t$
-
-- $\pi \approx 3.14159$
-
-Self-adjoint is Hermitian, i.e., if $A = |v><v|$ then $A = A^\dagger$.
+Self-adjoint is Hermitian, i.e., if $A = |v> <v|$ then $A = A^\dagger$.
 
 
 ## The postulates of quantum mechanics
