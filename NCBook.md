@@ -134,6 +134,21 @@ U^\dagger U &= (\sum_i \lambda_i \ket{i} \bra{i})^\dagger (\sum_j \lambda_j \ket
 ```
 
 Recall that given $\lambda = a + i b$, $ $\lambda_i^\ast  \lambda_i = a^2 + b^2$, i.e., modulus $|\lambda|$. 
+Therefore, if $U$ is unitary, thus $U^\dagger U = \sum_i |\lambda_i| \ket{i} \bra{i} = I$ and since $I = \sum_i \ket{i} \bra{i}$.
+That is, $|\lambda_i|$ must be 1. Q.E.D.
+
+### Exercise 2.19
+> (Pauli matrices: Hermitian and unitary) Show that the Pauli matrices are Hermitian and unitary.
+
+There are 4 types of Pauli matrices.
+
+```math
+I = 
+\begin{pmatrix}
+1 & 0 \\
+0 & 1
+\end{pmatrix}
+```
 
 
 
