@@ -67,8 +67,24 @@ To clarify, if $A$ is normal, $A$ can be either Hermitian or not.
 * If $A$ is Hermitian (Hermitian is always normal: $A = A^\dagger \rightarrow A A^\dagger = A^\dagger A$.
 
 Other handy properties
-* $(\ket{w} \bra{v})^\dagger = \ket{w} \bra{v}$ (page 70, Ex. 2.13)
-* $(\sum_i a_i A_i)^\dagger = \sum_i a_i^\ast A_i^\dagger$ (page 70, Ex. 2.14, Eq. 2.33)
+* $(\ket{w} \bra{v})^\dagger = \ket{w} \bra{v}$. (page 70, Ex. 2.13)
+* $(\sum_i a_i A_i)^\dagger = \sum_i a_i^\ast A_i^\dagger$. (page 70, Ex. 2.14, Eq. 2.33)
+
+Given Hermitian, that is
+$$A = A^\dagger$
+
+LHS:
+$$A = \sum_i \lambda_i \ket{i} \bra{i}$$
+
+RHS:
+```math
+\begin{align}
+A^\dagger &= (\sum_i \lambda_i \ket{i} \bra{i})^\dagger \\
+&= (\sum_i \lambda_i \ket{i} \bra{i})^\dagger
+\end{align}
+```
+
+
 
 ## The postulates of quantum mechanics
 * (p 80) **Postulate 1**: Associated to any isolated physical system is a complex vector space with inner product (that is, a Hilbert space) know as the _state space_ of the system. The system is completely described by its _state vector_, which is a unit vector in the system's state space.
