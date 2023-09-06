@@ -22,7 +22,13 @@ See what I planed for [C in Q wonderland](https://github.com/tatpongkatanyukul/A
 |States| points on $M$ | density matrices on $V$.
 |Evolution| Hamiltonian $\frac{\partial O}{\partial t} = H O$ | $i \frac{\partial \hat{O}}{\partial t} = \hat{H}  \hat{O}$
 
+---
 
+## How to predict when quantum state (superposition state) will collapse
+
+E.g., computation for simulating double-slit, Mach-Zehnder, Stern-Gerlach experiments
+
+---
 
 ## How these properties are used to make QC (or become issues in QC)
 
